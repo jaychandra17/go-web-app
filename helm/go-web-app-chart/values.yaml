@@ -1,0 +1,4 @@
+image:
+  repository: ghcr.io/jaychandra17/go-web-app
+  tag: "v1"  # This will be overridden during deployment
+  pullPolicy: IfNotPresent
