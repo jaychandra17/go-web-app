@@ -5,6 +5,7 @@ on:
     branches: [ main ]
     paths-ignore:
       - 'k8s/**'
+      - 'helm/go-web-app-chart/values.yaml'
       - 'README.md'
 jobs:
   build:
